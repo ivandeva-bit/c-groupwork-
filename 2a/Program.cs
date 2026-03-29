@@ -16,7 +16,7 @@ namespace _2a
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2c());
+            Application.Run(new Homepage());
         }
     }
 }

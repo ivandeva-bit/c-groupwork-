@@ -128,7 +128,7 @@ namespace _2a
         {
             double tot_cost = double.Parse(textBox13.Text);
             double tip = double.Parse(textBox12.Text) / 100;
-            double GST = 6 / 100;
+            double GST = 0.06;
             textBox11.Text = tot_cost.ToString();
             textBox10.Text = (tot_cost + GST).ToString();
             textBox14.Text = (tot_cost + tip + GST).ToString(); 

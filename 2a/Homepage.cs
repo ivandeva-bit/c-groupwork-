@@ -16,5 +16,11 @@ namespace _2a
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmDistance Scalculator = new frmDistance();
+            Scalculator.Show();
+        }
     }
 }
