@@ -360,6 +360,7 @@
             this.g1.TabIndex = 34;
             this.g1.Text = "Calculate";
             this.g1.UseVisualStyleBackColor = true;
+            this.g1.Click += new System.EventHandler(this.g1_Click);
             // 
             // f1
             // 

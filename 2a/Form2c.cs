@@ -123,5 +123,16 @@ namespace _2a
         {
 
         }
+
+        private void g1_Click(object sender, EventArgs e)
+        {
+            double tot_cost = double.Parse(textBox13.Text);
+            double tip = double.Parse(textBox12.Text) / 100;
+            double GST = 6 / 100;
+            textBox11.Text = tot_cost.ToString();
+            textBox10.Text = (tot_cost + GST).ToString();
+            textBox14.Text = (tot_cost + tip + GST).ToString(); 
+
+        }
     }
 }
