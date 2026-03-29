@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -64,6 +65,8 @@
             this.g1 = new System.Windows.Forms.Button();
             this.f1 = new System.Windows.Forms.Button();
             this.inv = new System.Windows.Forms.TextBox();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -423,6 +426,7 @@
             this.Name = "Form2c";
             this.Text = "Form2c";
             this.Load += new System.EventHandler(this.Form2c_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -466,5 +470,6 @@
         private System.Windows.Forms.Button g1;
         private System.Windows.Forms.Button f1;
         private System.Windows.Forms.TextBox inv;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
